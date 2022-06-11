@@ -1,4 +1,4 @@
-const TOKEN = "OTg1Mjc0MTQ5MTIxNDMzNjkw.GC_2Y6.0jH3liHeYNEsVKRw_Xrw3_8rX_g-A2FjGRzgbQ"
+const TOKEN = process.env.TOKEN
 const { Client, Intents } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 
